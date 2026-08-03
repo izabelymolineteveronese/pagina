@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>minha pagina da web</title>
     <style>
-        header{
+        header {
             background-color: #F6D8FF;
-            color: #000204; 
+            color: #000204;
             text-align: center;
             min-width: 800px;
             margin: 0 auto;
             border: 5px solid #3d0050;
             padding: 16px;
         }
+
         main {
-             background-color: #000204;
-            color: #F6D8FF; 
-            min-width: 800px; 
+            background-color: #000204;
+            color: #F6D8FF;
+            min-width: 800px;
             margin: 0 auto;
             padding: 16px;
-         display: flex;
+            display: flex;
 
         }
-        .aleta{
+
+        .aleta {
             font-weight: bold;
         }
     </style>
@@ -37,33 +40,37 @@
     <main>
         <img src="volei.webp" alt="imagem sobre o volei feminino">
 
-            <div>                       
+        <div>
             <h2>Meu primeiro post</h2>
             <p class="aleta">Por:Izabely Veronese Molinete</p>
-            <p>Boas-vindas ao meu blog! Aqui irei compartilhar todas as minhas experiencias como aleta
-            e  todos os meus conhecimentos sobre o voleibol.</p>
+            <p>Boas-vindas ao meu blog! Aqui irei compartilhar minha vida e rotina no voleibol.
+
+            </p>  Com apenas 6 anos de idade minha mãe que ja era uma jagadora de volei começou a me ensinar a jogar,
+                 apartir dai eu começei a me apaixonar pelo esporte, 
+                 porém eu precisava esperar mais um ano para dai ei poder comçar a treinar.
+            </p>
             <button> 🏐 <span>0</span></button>
             <div>
-
-     </main>
+    </main>
 
     <h1>veronese</h1>
 
-    
-    
+
+
 </body>
 <script>
     const botao = document.querySelector("button");
     botao.addEventListener("click", botaoclicado);
 
-        function botaoclicado(){
-            console.log("fui clicado");
-            let texto =botao.querySelector("span");
-            texto.textContent++;
-        }
-    
+    function botaoclicado() {
+        console.log("fui clicado");
+        let texto = botao.querySelector("span");
+        texto.textContent++;
+    }
+
 
 
 
 </script>
+
 </html>
